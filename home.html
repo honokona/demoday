@@ -12,8 +12,6 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link href="scss/_variables.scss" rel="sass" />
-    <link rel="stylesheet" href="style.css" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
@@ -23,7 +21,7 @@
   </head>
 
   <!--body-->
-  <body class="home-body">
+  <body style="background-color:Antiquewhite">
     <!--navbar-->
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid ">
@@ -45,51 +43,61 @@
             <!--             <li class="nav-item">
               <a class="nav-link" href="search-page.html">Search Page</a>
             </li> -->
+            <!--             <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="home.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li>
-            <li class="nav-item">
+             <li class="nav-item">
               <a class="nav-link" href="quiz.html">Quiz</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="container">
-      <div class="div-text-align-left">
-        <h1 style="font-family:Verdana">
-          Welcome
-        </h1>
-        <h1>
-          with this website, you will never need to waste time searching for
-          playists or songs ever again!
-        </h1>
-
-        <h4 style="font-family:Ariel">
-          We have songs/playlists of various categories and genres by many
-          different artists.
-        </h4>
-      </div>
-
-      <div class="featured-playlist-collection">
-        <h5>
-          Check out today's featured playlist collection
-        </h5>
-        <a href="study-playlists.html">
-          <img
-            width="300"
-            src="https://media4.giphy.com/media/XbJYBCi69nyVOffLIU/giphy.gif"
-          />
-        </a>
-        <h5 style="text-align:center">
-          Or
-        </h5>
-        <a href="quiz.html">
-          <br />Take a short quiz to get a recommended playlist
-        </a>
+    <div>
+      <h4>Reccomended Playlists</h4>
+      <hr />
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h5>Uplifting Playlists</h5>
+            <a href="uplifting-playlists.html">
+              <img 
+                width="300px"
+                height="300px"
+                src="https://i.gifer.com/7S2.gif" />
+            </a>
+          </div>
+          <div class="col">
+            <h5>
+              Study Playlists
+            </h5>
+            <a href="study-playlists.html">
+              <img
+                width="300px"
+                height="300px"
+                src="https://media4.giphy.com/media/XbJYBCi69nyVOffLIU/giphy.gif"
+              />
+            </a>
+          </div>
+          <div class="col">
+            <h5>
+              Lanugage Playlists
+            </h5>
+            <a href="language-playlists.html">
+              <img
+                width="300px"
+                height="300px"
+                src="https://c.tenor.com/k-E7P-IaTLEAAAAC/anime-manga.gif"
+              />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   </body>

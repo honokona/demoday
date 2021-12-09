@@ -7,25 +7,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      href="style.css"
       rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <link href="scss/_variables.scss" rel="sass" />
-    <link rel="stylesheet" href="style.css" />
+    <link href="style.css" rel="stylesheet" />
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
-    ></script>
+    >
+      <link rel="stylesheet" href="style.css"/>
+    </script>
     <title>Playlists</title>
+    <style>
+      .about-text {
+        text-shadow: 0 0 6px #205282;
+      }
+    </style>
   </head>
 
   <!--body-->
-  <body class="home-body">
+  <body
+    class="about-bg" style="background-image: url(https://images.unsplash.com/photo-1519750783826-e2420f4d687f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);"
+  >
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-dark about-navbar">
       <div class="container-fluid ">
         <a class="navbar-brand" href="index.html">Playlists</a>
         <button
@@ -39,7 +46,6 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <!--             <li class="nav-item">
@@ -48,49 +54,44 @@
             <li class="nav-item">
               <a class="nav-link" href="home.html">Home</a>
             </li>
+
             <li class="nav-item">
               <a class="nav-link" href="about.html">About</a>
             </li>
-            <li class="nav-item">
+             <li class="nav-item">
               <a class="nav-link" href="quiz.html">Quiz</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="container">
-      <div class="div-text-align-left">
-        <h1 style="font-family:Verdana">
-          Welcome
-        </h1>
-        <h1>
-          with this website, you will never need to waste time searching for
-          playists or songs ever again!
-        </h1>
+    <div class="about-text" style="color:#FFFFFF">
+      <h1 style="font-family:Ariel">
+        About
+        <hr />
+      </h1>
 
-        <h4 style="font-family:Ariel">
-          We have songs/playlists of various categories and genres by many
-          different artists.
-        </h4>
-      </div>
-
-      <div class="featured-playlist-collection">
-        <h5>
-          Check out today's featured playlist collection
-        </h5>
-        <a href="study-playlists.html">
-          <img
-            width="300"
-            src="https://media4.giphy.com/media/XbJYBCi69nyVOffLIU/giphy.gif"
-          />
-        </a>
-        <h5 style="text-align:center">
-          Or
-        </h5>
-        <a href="quiz.html">
-          <br />Take a short quiz to get a recommended playlist
-        </a>
-      </div>
+      <h4>
+        Our mission
+      </h4>
+      <p>
+        Help save time finding playlists
+      </p>
+      <h4>
+        About Us
+      </h4>
+      <p>
+        Everyone has 24 hours a day no matter who you are and seeing how many
+        people spend so much time just trying to find the right playlist
+        motivated us to create this website.
+      </p>
+      <h5>
+        Hi, I'm Angela! My favorite playlist here is the late night study
+        session.
+      </h5>
+      <h5>
+        Hi, I'm Maya! My favorite playlist here is the uplifting playlist.
+      </h5>
     </div>
   </body>
 </html>

@@ -6,7 +6,9 @@ html {
   font-size: 16px;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -15,11 +17,83 @@ body {
   margin: 1rem;
   font-family: sans-serif;
   line-height: 1.5;
+  background-repeat: no-repeat;
 }
+
 
 /* images and videos max out at full width */
 img,
 video {
   height: auto;
   max-width: 100%;
+}
+h1 {
+  text-align: left;
+  font-family: sans-serif;
+}
+
+h4 {
+  text-allign: center;
+}
+
+
+
+.div-text-align-left  {
+  width: 400px;
+  margin: 35px 0px 0px 50px;
+}
+
+.study-bg{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://i.ytimg.com/vi/_tV5LEBDs7w/maxresdefault.jpg");
+  height: 100vh;
+  
+}
+
+.about-bg{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://i.ytimg.com/vi/_tV5LEBDs7w/maxresdefault.jpg");
+  height: 100vh;
+  
+}
+
+.quiz-bg{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("https://i.ytimg.com/vi/_tV5LEBDs7w/maxresdefault.jpg");
+  height: 100vh;
+  
+}
+
+.container{
+  display: flex;
+}
+
+.featured-playlist-collection {
+  margin: 100px 0px 0px 250px;
+  width: 300px;
+}
+
+
+.study-playlists-body {
+background-image: url("https://i.ytimg.com/vi/_tV5LEBDs7w/maxresdefault.jpg");
+  background-repeat: no-repeat;
+}
+
+.home-body {
+ background-color: lightpink; 
+}
+
+.about-navbar{
+  font-family:Quesha;
+}
+
+#recommendation a {
+  display: none;
+}
+
+#recommendation #based {
+  display: none;
 }
