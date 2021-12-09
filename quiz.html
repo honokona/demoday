@@ -23,9 +23,9 @@
   </head>
 
   <!--body-->
-  <body class="home-body">
+  <body class="quiz-bg" style="background-image: url(https://images.unsplash.com/photo-1472552944129-b035e9ea3744?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&w=1000&q=80" "text-color:white"
     <!--navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container-fluid ">
         <a class="navbar-brand" href="index.html">Playlists</a>
         <button
@@ -58,39 +58,26 @@
         </div>
       </div>
     </nav>
-    <div class="container">
-      <div class="div-text-align-left">
-        <h1 style="font-family:Verdana">
-          Welcome
-        </h1>
-        <h1>
-          with this website, you will never need to waste time searching for
-          playists or songs ever again!
-        </h1>
+   <div style="color:white">
+      <h1>What are you doing?</h1>
 
-        <h4 style="font-family:Ariel">
-          We have songs/playlists of various categories and genres by many
-          different artists.
-        </h4>
-      </div>
-
-      <div class="featured-playlist-collection">
-        <h5>
-          Check out today's featured playlist collection
-        </h5>
-        <a href="study-playlists.html">
-          <img
-            width="300"
-            src="https://media4.giphy.com/media/XbJYBCi69nyVOffLIU/giphy.gif"
-          />
-        </a>
-        <h5 style="text-align:center">
-          Or
-        </h5>
-        <a href="quiz.html">
-          <br />Take a short quiz to get a recommended playlist
-        </a>
-      </div>
+      <div id="quiz">
+        <input type="radio" id="study" name="playlist" value="study" />
+        <label for="study">Studying/Working</label>
+        <br />
+        <input type="radio" id="language" name="playlist" value="language" />
+        <label for="language">Just Relaxing</label>
+        <br />
+        <input type="radio" id="breakup" name="playlist" value="uplifting" />
+        <label for="breakup">Other</label>
+			</div>
+			<div id="recommendation">
+				<span id="based">Based on your response we recommend: </span>
+				<a id="study" href="study-playlists.html">Study playlists</a>
+				<a id="language" href="language-playlists.html">Language playlists</a>
+				<a id="uplifting" href="uplifting-playlists.html">Uplifting playlists</a>
+			</div>
     </div>
+    <script src="quiz.js"></script>
   </body>
 </html>
